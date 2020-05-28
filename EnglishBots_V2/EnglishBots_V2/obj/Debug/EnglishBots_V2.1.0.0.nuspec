@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EnglishBots_V2</id>
+    <version>1.0.0</version>
+    <authors>EnglishBots_V2</authors>
+    <owners>EnglishBots_V2</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Serilog" version="2.9.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="3.1.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.RollingFile" version="3.3.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Telegram" version="0.1.2" exclude="Build,Analyzers" />
+        <dependency id="Telegram.Bot" version="15.5.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\alt255\Боты C#\EnglishBots_V2\EnglishBots_V2\bin\Debug\netcoreapp3.1\EnglishBots_V2.runtimeconfig.json" target="lib\netcoreapp3.1\EnglishBots_V2.runtimeconfig.json" />
+    <file src="D:\alt255\Боты C#\EnglishBots_V2\EnglishBots_V2\bin\Debug\netcoreapp3.1\EnglishBots_V2.dll" target="lib\netcoreapp3.1\EnglishBots_V2.dll" />
+  </files>
+</package>
